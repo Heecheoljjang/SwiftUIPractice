@@ -27,7 +27,14 @@ struct ContentView: View {
             Text("하이")
             Text("바보")
         }
+//        .frame(width: 400, height: 700)
         .padding()
+        .border(.brown)
+        .padding()
+        .border(.green)
+//        .frame(width: 400, height: 700)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(.gray)
     }
 }
 
